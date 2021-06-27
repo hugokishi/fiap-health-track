@@ -1,0 +1,16 @@
+/*** 
+Login Page CSS
+**/
+
+.link-svg {
+  margin-right: 3px;
+  justify-content: center;
+  align-items: center;
+  height: 17px;
+  width: 18px;
+}
+
+.image-principal{
+  height: 100%;
+  width: 100%;
+}
