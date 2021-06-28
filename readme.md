@@ -1,4 +1,4 @@
-# Health Track
+# About
 
 O Health Track é uma plataforma onde visa ajudar o usuário em relaçâo a saúde enviando alertas periodicamente para auxilia-ló a ter uma vida mais saúdavel.
 
