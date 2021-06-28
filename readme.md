@@ -11,7 +11,7 @@ O Health Track é uma plataforma onde visa ajudar o usuário em relaçâo a saú
 	</tr>
 	<tr>
 		<td>
-			<img width="1080" src="https://user-images.githubusercontent.com/56847487/123654166-307e8980-d804-11eb-94e2-f814393d5202.png">
+			<img width="1080" src="https://user-images.githubusercontent.com/56847487/123654201-383e2e00-d804-11eb-8423-c1e0ec75c433.png">
 		</td>
     <td>
 			<img width="1080" src="https://user-images.githubusercontent.com/56847487/123654201-383e2e00-d804-11eb-8423-c1e0ec75c433.png">
