@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Health Track - Analytics</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/analytics.css">
+  <link rel="stylesheet" href="./css/register.css">
+  <link rel="shortcut icon" href="./assets/icons/health-icon.png" type="image/x-icon">
+</head>
+<body>
+  <div class="register-container">
+    <div class="content">
+      <section>
+        <img src="./assets/one-health.png" alt="" class="one-health">
+        <h1>Cadastro de Estatística</h1>
+        <p>Quase lá, nos informe o que você deseja cadastrar.</p>
+        <a href="./profile.html" class="link-default"><i class="fas fa-arrow-right link-svg"></i>Voltar para Home</a>
+      </section>
+      <form action="./profile.html">
+        <select class="input-form-default blank">
+          <option value="blank"> Escolha o tipo </option>
+          <option value="water"> Água </option>
+          <option value="weight"> Peso </option>
+        </select>
+        <textarea name="description" id="description" class="mt-2"> </textarea>
+        <input type="date" name="Birthday" id="birthday" class="input-form-default">
+        <button type="submit" class="button-default mt-5">Cadastrar Estatística</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
