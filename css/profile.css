@@ -19,13 +19,13 @@
   height: 64px;
 }
 
-.profile-container header a{
+.link-profile {
   width: 260px;
   margin-left: auto;
   margin-top: 0;
 }
 
-.profile-container header button{
+.logout-button {
   height: 60px;
   width: 60px;
   border-radius: 4px;
@@ -33,10 +33,17 @@
   background: transparent;
   margin-left: 16px;
   transition: border-color 0.2s;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
 
-.profile-container header button:hover{
+.logout-button:hover {
   border-color: #999;
+}
+
+.logout-icon {
+  color: #000;
 }
 
 .profile-container h1{
@@ -64,14 +71,14 @@
   justify-content: space-between;
 }
 
-.profile-container ul li button{
+.profile-container ul li a{
   position: absolute;
   right: 24px;
   top: 24px;
   border: 0;
 }
 
-.profile-container ul li button:hover{
+.profile-container ul li a:hover{
   opacity: 0.8;
 }
 

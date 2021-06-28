@@ -10,23 +10,26 @@
   <link rel="stylesheet" href="./css/global.css">
   <link rel="stylesheet" href="./css/login.css">
   <link rel="shortcut icon" href="./assets/icons/health-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/loader.css">
 </head>
-<body>
-  <div container="container h-100">
+<body onload="myFunction()" style="margin:0;">
+  <div id="loader"></div>
+  <div style="display:none;" class="container h-100 animate-bottom" id="myDiv">
     <div class="d-flex justify-content-center align-items-center h-100">
       <div class="p-5 w-100 bd-highlight">
         <img src="./assets/one-health.png" alt="" srcset="" class="image-principal">
       </div>
       <div class="p-5 w-100 bd-highlight">
-        <form action="">
+        <form action="./profile.html">
           <h1>Faça seu Login</h1>
           <input type="email" class="input-form-default mt-2" placeholder="Digite seu Email">
           <input type="password" class="input-form-default mt-3" placeholder="Digite sua Senha">
           <button type="submit" class="button-default mt-5">Entrar</button>
-          <a href="./register.html" class="link-default"><i class="fas fa-arrow-right link-svg"></i>Clique aqui para se cadastrar</a>
+          <a href="./register.html" class="link-default"><i class="fas fa-arrow-right link-svg"></i>Não possui uma conta? Clique aqui para cadastrar-se!</a>
         </form>
       </div>
     </div>
   </div>
+  <script src="./js/loader.js"></script>
 </body>
 </html>
