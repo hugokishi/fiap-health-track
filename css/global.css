@@ -18,7 +18,6 @@ body{
   background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-
 } 
 
 .button-default {
@@ -64,4 +63,12 @@ body{
   border: 1px solid #dcdce6;
   border-radius: 8px;
   padding: 0 24px;
+}
+
+input, button, textarea{
+  font: 400 18px Roboto, sans-serif;
+}
+
+button{
+  cursor: pointer;
 }
