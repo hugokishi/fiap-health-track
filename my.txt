@@ -1,0 +1,7 @@
+git init
+git add .
+git commit -m "adding screens for healthtrack"
+git remote add origin git@github.com:hugokishi/fiap-health-track.git
+git push origin master
+
+link github: https://github.com/hugokishi
